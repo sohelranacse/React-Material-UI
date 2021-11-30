@@ -7,7 +7,10 @@ import Error from './components/Error';
 import Readme from './components/Readme';
 
 // material ui
-import HelloWorld from './components/MUIcomponents/HelloWorld'
+import AutoCompleteComponents from './components/MUIcomponents/AutoCompleteComponents'
+import ButtonComponents from './components/MUIcomponents/Button'
+import ButtonGroupComponents from './components/MUIcomponents/ButtonGroupComponents';
+
 
 export default function App() {  
 
@@ -17,7 +20,9 @@ export default function App() {
             <Switch>
                 <Route exact path="/" component={Home} />
 
-                <Route exact path="/hello-world" component={HelloWorld} />
+                <Route exact path="/auto-complete" component={AutoCompleteComponents} />
+                <Route exact path="/button" component={ButtonComponents} />
+                <Route exact path="/button-group" component={ButtonGroupComponents} />
 
                 <Route exact path="/about" component={About} />
                 <Route exact path="/readme" component={Readme} />

@@ -11,9 +11,10 @@ export default function Readme() {
                 <code>npx create-react-app practce-react</code><br/>
                 <code>npm install react-router-dom</code><br/>
                 <code>npm install react-helmet</code><br />
-                <code>npx react-codemod rename-unsafe-lifecycles</code><br />
-                <code>npm install --save react-helmet@^6.0.0-beta.2</code><br />
-                <code>npm install react-syntax-highlighter --save</code><a href="https://github.com/react-syntax-highlighter/react-syntax-highlighter" target="_blank" rel="noopener noreferrer" style={{ color: "blue" }}>Link</a>
+                <code>npm install @mui/icons-material</code><br />
+                <code>npm install @mui/material @emotion/react @emotion/styled</code><br />
+                <code>npm install @mui/material @mui/styled-engine-sc styled-components</code><br />
+                <code>@mui/lab</code><br />
             </p>
         </div>
     )

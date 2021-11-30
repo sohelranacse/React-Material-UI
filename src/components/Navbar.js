@@ -24,14 +24,18 @@ export default class Navbar extends Component {
                     <h4><NavLink exact to="/" className="logo">React Material UI</NavLink></h4>
 
                     <ul className="list-unstyled components mb-4">
-                        <li><NavLink exact to="/" activeClassName="selected">Home</NavLink></li>
+                        <li><NavLink exact to="/">Home</NavLink></li>
 
                         <li className="active">
-                            <a href="#components" data-toggle="collapse" aria-expanded="false" className="dropdown-toggle">components</a>
+                            <a href="#components" data-toggle="collapse" aria-expanded="false" className="dropdown-toggle">Components</a>
                             <ul className="collapse list-unstyled" id="components">
-                                <li><NavLink exact to="/hello-world" activeClassName="selected">Hello World</NavLink></li>
+                                <li><NavLink exact to="/auto-complete">Auto Complete</NavLink></li>
+                                <li><NavLink exact to="/button">Button</NavLink></li>
+                                <li><NavLink exact to="/button-group">Button Group</NavLink></li>
                             </ul>
                         </li>
+
+                        <li><NavLink exact to="/readme">Read Me</NavLink></li>
                     </ul>
 
                     <div className="footer">
